@@ -60,6 +60,7 @@ brushless esc motor controller
 nema 17 stepper motor
 tmc2209/2240/2241 (prefer right to left) driver for quietness
 
+https://www.aliexpress.us/item/3256806203259773.html
 water level sensor (2x for top and bottom tank)
 
 neopixel strip
