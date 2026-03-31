@@ -1,4 +1,4 @@
-26407299328005407
+26410847938444955
 1_udu_lib
 HM-NFC-Class6-Antenna
 <h1> Class 6 Antenna - 50 pF #01 </h1>{return}<h3>{return}Size: 	24 x 18 mm{return}<br>{return}Width: 	0.25 mm{return}<br>{return}Gap: 	0.1 mm{return}<br>{return}Turns: 	7{return}</h3>
@@ -59990,6 +59990,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 EasyEDA
+CONN-SMD_14P-P1.27_FTSH-107-01-F-DV-K-P-TR
+
+
+0
+14
+14
+EasyEDA
 ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP
 
 
@@ -60003,6 +60010,13 @@ IND-SMD_L5.8-W5.2_SLF05XX
 0
 2
 2
+EasyEDA
+SON-8_L3.0-W3.0-P0.65-LS3.0-BL-EP
+
+
+0
+9
+9
 EasyEDA
 SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR
 
