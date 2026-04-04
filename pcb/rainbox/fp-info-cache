@@ -1,4 +1,4 @@
-26410847938444955
+26417949020347280
 1_udu_lib
 HM-NFC-Class6-Antenna
 <h1> Class 6 Antenna - 50 pF #01 </h1>{return}<h3>{return}Size: 	24 x 18 mm{return}<br>{return}Width: 	0.25 mm{return}<br>{return}Gap: 	0.1 mm{return}<br>{return}Turns: 	7{return}</h3>
@@ -6,6 +6,34 @@ HM-NFC-Class6-Antenna
 0
 3
 2
+1_udu_lib
+PWP0016J_L
+
+DRV8874PWPR 
+0
+32
+32
+1_udu_lib
+PWP0016J_M
+
+DRV8874PWPR 
+0
+32
+32
+1_udu_lib
+PWP0016J_N
+
+DRV8874PWPR 
+0
+32
+32
+1_udu_lib
+PWP0016J_NV
+
+DRV8874PWPR 
+0
+17
+17
 1_udu_lib
 SW_Cherry_MX_1.00u_PCB_3dmodel
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
