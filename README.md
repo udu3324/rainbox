@@ -59,5 +59,5 @@ You can find the entire cad [here](https://cad.onshape.com/documents/e948a9a5781
 
 ## BOM
 
-You can view the interactive BOM [here!](https://docs.google.com/spreadsheets/d10gB80Lu2tYKqtstPC31-ZahqdRdbqbskEyKegbtCWHs) The total is around <250 USD.
+You can view the interactive BOM [here!](https://docs.google.com/spreadsheets/d/10gB80Lu2tYKqtstPC31-ZahqdRdbqbskEyKegbtCWHs/edit?usp=sharing) The total is around <250 USD.
 
