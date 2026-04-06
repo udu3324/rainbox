@@ -1,27 +1,27 @@
-rainbox research
+# rainbox research
 
-sound creation --- 
+## sound creation --- 
 
 https://mynoise.net/NoiseMachines/rainNoiseGenerator.php
 https://science.nasa.gov/earth/earth-observatory/listening-to-raindrops/
 
-water hitting directly on water (requires a depth of water)
-water hitting some sort of ground (tarp, or rubber)
+* water hitting directly on water (requires a depth of water)
+* water hitting some sort of ground (tarp, or rubber)
 
-at what height? - 
+### at what height? - 
 water droplets hit their terminal velocity easily
 ~400mm
 
 
 at what diameter of drop makes sound? what kind of sound? -
-0.8/1.2mm dia - 13-25kHz direct water (high freq)
-1.2/2.0 dia - quiet type
-2.0/3.5mm dia - 1-10kHz direct water, 1-50kHz splat (low freq)
+* 0.8/1.2mm dia - 13-25kHz direct water (high freq)
+* 1.2/2.0 dia - quiet type
+* 2.0/3.5mm dia - 1-10kHz direct water, 1-50kHz splat (low freq)
 
 
 
 
-fluid mechanics --- 
+## fluid mechanics --- 
 
 https://www.wisewell.com/blogs/news/is-deionized-water-the-same-as-distilled-water
 use deionized water
@@ -37,19 +37,19 @@ based on the kohler rain shower head, a plate will guide water down holes using 
 
 
 
-electronics --- 
+## electronics --- 
 
 24v power supply
 
 esp32-s3 (controls all)
 
 
-choice 1
+### choice 1
 https://zddcmotor.com/products/4245-brushless-motor (same)
 https://www.aliexpress.us/item/3256807744943576.html
 https://www.aliexpress.us/item/3256809335050730.html
 
-choice 2
+### choice 2
 https://www.underwaterthruster.com/products/3750-underwater-waterproof-and-corrosion-proof-brushless-motors-for-underwater-robots-and-rov-motors-for-unmanned-boats?variant=42650338590948
 (get the esc from choice 1)
 (also request them to waterproof/add cables free of charge)
@@ -73,19 +73,11 @@ needs a driver controller of the same voltage and frequency
 
 
 
-frame/structure --- 
+## frame/structure --- 
 
-tank/sides obviously has to be waterproof
-
-polycarbonate sides with a opening on one wall (maybe side cutouts too)
-
-bottom tank with a hole on the side, easy to clean and maintain
-
-2020 aluminum extrusion for the frame and support
-
-petg prints preferred for everything
-
-petg or pvc flexible clear tubing
-
-
-
+* tank/sides obviously has to be waterproof
+* polycarbonate sides with a opening on one wall (maybe side cutouts too)
+* bottom tank with a hole on the side, easy to clean and maintain
+* 2020 aluminum extrusion for the frame and support
+* petg prints preferred for everything
+* petg or pvc flexible clear tubing
