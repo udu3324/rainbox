@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>rainbox control panel</title>
+  </head>
+  <body>
+    <h1>rainbox control panel</h1>
+
+    <span>water level</span>
+    <progress id="water level" value="0" max="533"> 32% </progress>
+
+    <br />
+    <br />
+
+    <fieldset>
+      <legend>Scheduling</legend>
+
+      <div>
+        <input type="checkbox" id="scheduled" name="scheduled" checked />
+        <label for="scheduled">Active Schedule</label>
+      </div>
+
+      <div>
+        <input
+          type="time"
+          id="time_start"
+          name="time_start" />
+        <label for="time_start">Start Time</label>
+      </div>
+
+      <div>
+        <input
+          type="time"
+          id="time_end"
+          name="time_end" />
+        <label for="time_end">End Time</label>
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Configuration</legend>
+
+      <div>
+        <input type="checkbox" id="rgb" name="rgb" checked />
+        <label for="rgb">RGB Lights</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="mist" name="mist" checked />
+        <label for="mist">Mist</label>
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Testing</legend>
+
+      <div>
+        <button onclick="sendMessage('tPump');">Enable Pump</button>
+        <button onclick="sendMessage('fPump');">Disable Pump</button>
+        <br />
+        <button onclick="sendMessage('tWPlane');">Enable Water Plane</button>
+        <button onclick="sendMessage('fWPlane');">Disable Water Plane</button>
+        <br />
+        <button onclick="sendMessage('tRGB');">Enable RGB</button>
+        <button onclick="sendMessage('fRGB');">Disable RGB</button>
+        <br />
+        <button onclick="sendMessage('tMist');">Enable Mist</button>
+        <button onclick="sendMessage('fMist');">Disable Mist</button>
+      </div>
+
+    </fieldset>
+  </body>
+  <script>
+    var ws = new WebSocket('ws://192.168.4.1/ws');
+    ws.onopen = function() {
+      console.log("WebSocket connected");
+    };
+    ws.onclose = function() {
+      console.log("WebSocket closed");
+    };
+    ws.onerror = function(error) {
+      console.log("WebSocket error: " + error);
+    };
+
+    ws.onmessage = function(event) { // handle this <---------------------------
+      console.log("WebSocket message: " + event.data);
+    };
+
+    function sendMessage(message) {
+      console.log("WebSocket sent: " + message);
+      ws.send(message);
+    }
+  </script>
+</html>

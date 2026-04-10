@@ -15,6 +15,12 @@ An ambient sound device that is designed to fit on your nightstand. It is based 
 Rain is something relaxing to listen to, and being able to hear it at night brings a greater quality to sleep. Not only does this have more features than those small rain devices seen on temu, this actually makes rain that is more audible and realistic, as well as coming with a bunch of more features.
 
 
+## Webpanel Control
+
+The Rainbox can be controlled through its webpanel that is hosted on its own AP or connected to WiFi.
+
+![webpanel](webpanel.png)
+
 ## Mechanical Features
 
 * Quiet submersed water pump that is speed controlled

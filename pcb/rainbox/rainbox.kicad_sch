@@ -6709,16 +6709,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 69.85) (xy 130.81 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d62ac7b-bf4e-4419-a5a8-05ec7f064c84")
-	)
-	(wire
-		(pts
 			(xy 29.21 35.56) (xy 31.75 35.56)
 		)
 		(stroke
@@ -6799,16 +6789,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 88.9) (xy 130.81 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57993f55-f040-4c0a-bb74-c60c02487b8f")
-	)
-	(wire
-		(pts
 			(xy 144.78 33.02) (xy 144.78 31.75)
 		)
 		(stroke
@@ -6826,16 +6806,6 @@
 			(type default)
 		)
 		(uuid "58d0f7f9-7912-43d3-9567-90b966f9c4e9")
-	)
-	(wire
-		(pts
-			(xy 134.62 63.5) (xy 134.62 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59f191fa-3c30-4e13-81f0-08d15d57d34a")
 	)
 	(wire
 		(pts
@@ -6899,16 +6869,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 69.85) (xy 130.81 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6010da82-dcee-4534-9877-6b0467858adb")
-	)
-	(wire
-		(pts
 			(xy 149.86 156.21) (xy 142.24 156.21)
 		)
 		(stroke
@@ -6916,16 +6876,6 @@
 			(type default)
 		)
 		(uuid "60e263c2-3120-4aa2-8359-bcc67cb0f60b")
-	)
-	(wire
-		(pts
-			(xy 139.7 63.5) (xy 134.62 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61914956-a7f2-4088-8554-d014863183ee")
 	)
 	(wire
 		(pts
@@ -7239,16 +7189,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 82.55) (xy 134.62 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98af5ba0-8ac4-4ae4-b954-353059dd7c1c")
-	)
-	(wire
-		(pts
 			(xy 21.59 35.56) (xy 21.59 27.94)
 		)
 		(stroke
@@ -7296,16 +7236,6 @@
 			(type default)
 		)
 		(uuid "a1336717-0c26-4b79-b220-1fe61f08c957")
-	)
-	(wire
-		(pts
-			(xy 134.62 88.9) (xy 130.81 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a298e90e-f2f4-4e4e-8e07-a5d0cfc03b65")
 	)
 	(wire
 		(pts
@@ -7486,16 +7416,6 @@
 			(type default)
 		)
 		(uuid "baa99bef-cd77-4a72-8bc4-bb74dcc8f264")
-	)
-	(wire
-		(pts
-			(xy 139.7 82.55) (xy 134.62 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb54cac5-960d-41e2-89b5-7dd2ffe0dfee")
 	)
 	(wire
 		(pts
@@ -8119,6 +8039,28 @@
 			)
 		)
 	)
+	(global_label "S2Power"
+		(shape input)
+		(at 58.42 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37b43fbf-5d6e-4924-a703-35e6b9beae84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.4485 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PH_IN2"
 		(shape input)
 		(at 58.42 40.64 0)
@@ -8203,6 +8145,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S2Power"
+		(shape input)
+		(at 139.7 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44041a16-1b1e-4500-bbb0-65720f32f9b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.6715 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8423,6 +8387,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S1Power"
+		(shape input)
+		(at 139.7 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "663c3729-660c-44ca-a423-57e11bfde9dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.6715 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8726,6 +8712,28 @@
 		(uuid "c007c6a6-1594-4fe6-884f-d9305d5419d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 68.4204 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S1Power"
+		(shape input)
+		(at 58.42 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0974195-284b-4b87-ba27-159ad5bb4be1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.4485 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12402,71 +12410,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 130.81 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6baac60a-8221-4298-89d6-8ae47055f86c")
-		(property "Reference" "#PWR019"
-			(at 130.81 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 130.81 64.516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 130.81 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bedf67f9-4189-4bd1-89db-25ea3843e4da")
-		)
-		(instances
-			(project "rainbox"
-				(path "/dd609afc-35f2-4e8c-9510-83a0786896a4"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "1_udu_lib:Water_Sensor_Module")
 		(at 149.86 63.5 0)
 		(unit 1)
@@ -13430,71 +13373,6 @@
 			(project "rainbox"
 				(path "/dd609afc-35f2-4e8c-9510-83a0786896a4"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 130.81 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a07db663-8100-4346-a80c-8e03834ca626")
-		(property "Reference" "#PWR020"
-			(at 130.81 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 130.81 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19a76914-db4f-4fc5-8a50-f473fdb27073")
-		)
-		(instances
-			(project "rainbox"
-				(path "/dd609afc-35f2-4e8c-9510-83a0786896a4"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
