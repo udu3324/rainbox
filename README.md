@@ -1,6 +1,6 @@
 # Rainbox - Ambient Rain Sound Generator
 
-![cad](cad.png)
+![render3](render3.png)
 
 An ambient sound device that is designed to fit on your nightstand. It is based on the esp32 and is super hackable.
 
@@ -13,6 +13,11 @@ An ambient sound device that is designed to fit on your nightstand. It is based 
 ## Purpose
 
 Rain is something relaxing to listen to, and being able to hear it at night brings a greater quality to sleep. Not only does this have more features than those small rain devices seen on temu, this actually makes rain that is more audible and realistic, as well as coming with a bunch of more features.
+
+
+## Zine Page
+Some details have been redacted. DM me for the full version!
+![zine](zine.png)
 
 
 ## Webpanel Control
