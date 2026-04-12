@@ -72,3 +72,13 @@ You can find the entire cad [here](https://cad.onshape.com/documents/e948a9a5781
 
 You can view the interactive BOM [here!](https://docs.google.com/spreadsheets/d/10gB80Lu2tYKqtstPC31-ZahqdRdbqbskEyKegbtCWHs/edit?usp=sharing) The total is around <250 USD.
 
+### Build Steps
+1. Get all the materials ready, 3d printed, and PCB fabricated
+2. Cut out the polycarbonate on a CNC Mill
+3. Tap the holes of the aluminum extrusion for M5 screws.
+4. Assemble the bottom portion of the rainbox, which includes the bottom tank, aluminum extrusion, and polycarbonate walls
+5. Screw the pcb onto the electronics cover
+6. Connect all the motors, sensors, and water atomizer into the pcb
+7. Mount all the electronics onto the back of the polycarbonate
+8. Flash the firmware onto the board
+9. Done! Control it through the WiFi AP web-panel
