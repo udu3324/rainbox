@@ -70,7 +70,7 @@ You can find the entire cad [here](https://cad.onshape.com/documents/e948a9a5781
 
 ## BOM
 
-You can view the interactive BOM [here!](https://docs.google.com/spreadsheets/d/10gB80Lu2tYKqtstPC31-ZahqdRdbqbskEyKegbtCWHs/edit?usp=sharing) The total is around <250 USD.
+You can view the interactive BOM [here!](https://docs.google.com/spreadsheets/d/10gB80Lu2tYKqtstPC31-ZahqdRdbqbskEyKegbtCWHs/edit?usp=sharing) The total is around 150 USD.
 
 ### Build Steps
 1. Get all the materials ready, 3d printed, and PCB fabricated
